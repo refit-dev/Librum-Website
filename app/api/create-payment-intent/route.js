@@ -9,7 +9,7 @@ export const preferredRegion = "auto";
 export const maxDuration = 5;
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: "2022-11-15",
+  apiVersion: "2026-09-30.endive",
 });
 
 export async function POST(req, res) {
